@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   </head>
   <body>
-    {% include navigation.html %}
+    {% include header.html %}
     {{ content}}
+    {% include footer.html %}
+    
+    {% for page in site.pages %}
+    {{ page.title }}
+    {% endfor %}
     <script src="../assets/js/music-videos-parallax.js"></script>
     <script src="../assets/js/music-videos-leaf1-parallax.js"></script>
     <!-- <script src="../assets/js/music-videos-hover.js"></script> -->
