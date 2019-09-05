@@ -1,0 +1,53 @@
+.bg-image {
+    display: flex;
+    margin: auto;
+    background-image: url("/assets/img/header.png");
+    height: 520px;
+    width: 1024px;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    margin-top: -6%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    font-family: $roboto;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: flex-start;
+    li {
+        margin: 3px;
+        width: 110px;
+        padding: 2% 2% 2% 2%;
+        text-align: center;
+    }
+}
+
+.bg-darkGreen {
+    background-color: $darkGreen;
+}
+.bg-green {
+    background-color: $green;
+}
+.bg-yellowGreen {
+    background-color: $yellowGreen;
+}
+.bg-orange {
+    background-color: $orange;
+}
+.bg-darkOrange {
+    background-color: $darkOrange;
+}
+
+
