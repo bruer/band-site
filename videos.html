@@ -1,0 +1,21 @@
+---
+layout: default
+title: Videos
+---
+
+<div class="videos-container" id="videos-container">
+    <div id="videos-leaf-1-box">
+        <img class="videos-leaf-1" src="../assets/design-images/leaf.png" alt="leaf 1">
+    </div>
+    <div id="videos-leaf-2-box">
+        <img class="videos-leaf-2" src="../assets/design-images/leaf_2.png" alt="leaf 2">
+    </div>
+    <h1>Videos</h1>
+    {% for item in site.data.videos %}
+    <div>
+        <iframe width="560" height="315" src="{{ item.url }}" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>{{ item.name }}</p>
+    </div>
+    {% endfor %}
+</div>

@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap");
 body { background: linear-gradient(to bottom, #ffb300 0%, #ff5911 100%) fixed; color: #000000; font-family: "Roboto Slab", serif; }
 
-.music-videos-container { width: 80%; margin: 300px auto 0 auto; padding: 20px; text-align: center; background: linear-gradient(to bottom, #fdff00 0%, #78cf00 100%); }
+.music-container { width: 1024px; margin: auto; padding: 20px; text-align: center; background: linear-gradient(to bottom, #FCFF00 0%, #78CE00 100%); }
 
-.music-videos-container-discography { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; gap: 50px; width: 80%; margin: auto; }
+.music-container-discography { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; gap: 50px; width: 80%; margin: auto; }
 
-.music-videos-discography-images { width: 100%; position: relative; z-index: 20; }
+.music-discography-item { background-color: #009B41; padding: 10px; z-index: 20; }
 
-#music-videos-leaf-1-box { position: absolute; top: 700px; width: 15%; z-index: 10; }
+.music-discography-images { width: 100%; position: relative; z-index: 20; }
 
-.music-videos-leaf-1 { width: 100%; }
+#music-leaf-1-box { position: absolute; top: 700px; left: 50px; width: 20%; z-index: 10; }
 
-#music-videos-leaf-2-box { position: absolute; top: 700px; right: 0; width: 20%; z-index: 10; }
+#music-leaf-2-box { position: absolute; top: 700px; right: 50px; width: 25%; z-index: 10; }
 
-.music-videos-leaf-2 { width: 100%; }
+.music-leaf-1, .music-leaf-2 { width: 100%; }
 
 .about-background { display: flex; flex-direction: column; align-items: center; background-image: url(/assets/img/band_designelements.png); background-repeat: repeat; }
 

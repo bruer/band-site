@@ -1,0 +1,25 @@
+---
+layout: default
+title: Music
+---
+
+<div class="music-container" id="music-container">
+    <div id="music-leaf-1-box">
+        <img class="music-leaf-1" src="../assets/design-images/leaf.png" alt="leaf 1">
+    </div>
+    <div id="music-leaf-2-box">
+        <img class="music-leaf-2" src="../assets/design-images/leaf_2.png" alt="leaf 2">
+    </div>
+    <h1>Music</h1>
+    <div class="music-container-discography">
+        {% for file in site.static_files %}
+        {% if file.image %}
+        <div class="music-discography-item">
+            <img src="{{file.path}}" class="music-discography-images" alt="file.name">
+            <p>{{file.basename}}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+<script src="../assets/js/music.js"></script>
