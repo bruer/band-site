@@ -4,7 +4,7 @@ body {
 
 .music-videos-container {
     width: 80%;
-    margin: 300px auto auto auto;
+    margin: 300px auto 0 auto;
     padding: 20px;
     text-align: center;
     background: linear-gradient(to bottom, #fdff00 0%, #78cf00 100%);
@@ -27,7 +27,7 @@ body {
 
 #music-videos-leaf-1-box {
     position: absolute;
-    top: 500px;
+    top: 700px;
     width: 15%;
     z-index: 10;
 }
@@ -36,11 +36,16 @@ body {
     width: 100%;
 }
 
-.music-videos-leaf-2 {
+#music-videos-leaf-2-box {
     position: absolute;
-    top: 300px;
-    right: 0px;
-    width: 25%;
+    top: 700px;
+    right: 0;
+    width: 20%;
     z-index: 10;
 }
+
+.music-videos-leaf-2 {
+    width: 100%;
+}
+
 
