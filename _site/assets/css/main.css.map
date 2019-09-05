@@ -3,12 +3,14 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"_sass/main.scss"
+		"_sass/main.scss",
+		"_sass/about.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n",
-		"$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n"
+		"@import \"main\";\n@import \"about\";\n",
+		"$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n  \n}",
+		".about-background {\n    // background-color: blue;\n    // min-height: 1030px;\n    // padding-bottom: 100px;\n\n    // height: 150rem;\n\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n\n    background-image: url(/assets/img/band_designelements.png);\n    // background-size: cover;\n    background-repeat: repeat;\n}\n\n.about-text {\n    background-color: lightgray;\n    \n    width: 50%;\n    // height: 300px;\n    padding: 50px;\n    margin: 100px 0;\n\n    display: flex;\n    justify-content: center;\n\n    text-align: center;\n    font-size: 17.5px;\n    line-height: 2;\n\n    // overflow: scroll;\n    opacity: 0.95;\n\n    transform: translateY(200px);\n}\n\n.about-foreground {\n    background-color: lightgray;\n    \n    width: 50%;\n    // height: 50%;\n    padding: 50px;\n    margin: 50px;\n    transform: translateY(200px);\n\n    text-align: center;\n    font-size: 17.5px;\n    line-height: 2;\n\n    opacity: 0.95;\n}"
 	],
 	"names": [],
-	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,UAAU,EALM,OAAO,EAMvB,KAAK,EALK,OAAO,EAMjB,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI"
+	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,UAAU,EALM,OAAO,EAMvB,KAAK,EALK,OAAO,EAMjB,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAOvI;;ACTD,AAAA,iBAAiB,CAAC,EAOd,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,EACtB,WAAW,EAAE,MAAM,EAEnB,gBAAgB,EAAE,wCAAwC,EAE1D,iBAAiB,EAAE,MAAM,GAC5B;;AAED,AAAA,WAAW,CAAC,EACR,gBAAgB,EAAE,SAAS,EAE3B,KAAK,EAAE,GAAG,EAEV,OAAO,EAAE,IAAI,EACb,MAAM,EAAE,OAAO,EAEf,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,EAEvB,UAAU,EAAE,MAAM,EAClB,SAAS,EAAE,MAAM,EACjB,WAAW,EAAE,CAAC,EAGd,OAAO,EAAE,IAAI,EAEb,SAAS,EAAE,iBAAiB,GAC/B;;AAED,AAAA,iBAAiB,CAAC,EACd,gBAAgB,EAAE,SAAS,EAE3B,KAAK,EAAE,GAAG,EAEV,OAAO,EAAE,IAAI,EACb,MAAM,EAAE,IAAI,EACZ,SAAS,EAAE,iBAAiB,EAE5B,UAAU,EAAE,MAAM,EAClB,SAAS,EAAE,MAAM,EACjB,WAAW,EAAE,CAAC,EAEd,OAAO,EAAE,IAAI,GAChB"
 }
