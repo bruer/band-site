@@ -1,0 +1,30 @@
+// start valesca
+
+.music-videos-container {
+    width: 80%;
+    margin: 300px auto auto auto;
+    padding: 20px;
+    text-align: center;
+    background-color: $main-yellow;
+}
+
+.music-videos-container-discography {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    // border: 1px solid black;
+}
+
+.music-videos-discography-images {
+    width: 100%;
+    // border: 1px solid black;
+}
+
+// .music-videos-discography-item {
+//   border: 1px solid black;
+// }
+
+// end valesca
