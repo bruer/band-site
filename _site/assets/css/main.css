@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap");
 body { background: linear-gradient(to bottom, #ffb300 0%, #ff5911 100%) fixed; color: #000000; font-family: "Roboto Slab", serif; }
 
-.music-container { width: 1024px; margin: auto; padding: 20px; text-align: center; background: linear-gradient(to bottom, #FCFF00 0%, #78CE00 100%); }
+.music-videos-container { width: 1024px; margin: auto; padding: 20px; text-align: center; background: linear-gradient(to bottom, #FCFF00 0%, #78CE00 100%); }
 
 .music-container-discography { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; gap: 50px; width: 80%; margin: auto; }
 
@@ -9,11 +9,17 @@ body { background: linear-gradient(to bottom, #ffb300 0%, #ff5911 100%) fixed; c
 
 .music-discography-images { width: 100%; position: relative; z-index: 20; }
 
-#music-leaf-1-box { position: absolute; top: 700px; left: 50px; width: 20%; z-index: 10; }
+.leaf-1-box { position: absolute; top: 700px; left: 50px; width: 20%; z-index: 10; }
 
-#music-leaf-2-box { position: absolute; top: 700px; right: 50px; width: 25%; z-index: 10; }
+.leaf-2-box { position: absolute; top: 700px; right: 50px; width: 25%; z-index: 10; }
 
-.music-leaf-1, .music-leaf-2 { width: 100%; }
+.leaf-1, .leaf-2 { width: 100%; }
+
+.video-iframe { width: 80%; height: 500px; position: relative; z-index: 20; }
+
+.videos-container { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto; grid-gap: 20px; width: 80%; margin: 40px auto; }
+
+.videos-iframes { width: 100%; height: 250px; position: relative; z-index: 20; }
 
 .about-background { display: flex; flex-direction: column; align-items: center; background-image: url(/assets/img/band_designelements.png); background-repeat: repeat; }
 

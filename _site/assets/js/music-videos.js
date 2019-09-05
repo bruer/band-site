@@ -1,10 +1,12 @@
 // parallaxUp
 
 function parallaxUp() {
-  let el = document.querySelector("#music-leaf-1-box");
+  let el = document.querySelectorAll(".leaf-1-box");
   let mult = 0.1;
-  let distance = elementDistanceFromBottomOfViewport(el);
-  el.style.transform = "translateY(-" + distance * mult + "px)";
+  for (let i = 0; i < el.length; i++) {
+    let distance = elementDistanceFromBottomOfViewport(el[i]);
+    el[i].style.transform = "translateY(-" + distance * mult + "px)";
+  }
 }
 
 if (window.addEventListener) {
@@ -16,10 +18,12 @@ if (window.addEventListener) {
 // parallaxDown
 
 function parallaxDown() {
-  let el = document.querySelector("#music-leaf-2-box");
+  let el = document.querySelectorAll(".leaf-2-box");
   let mult = 0.5;
-  let distance = elementDistanceFromBottomOfViewport(el);
-  el.style.transform = "translateY(" + distance * mult + "px)";
+  for (let i = 0; i < el.length; i++) {
+    let distance = elementDistanceFromBottomOfViewport(el[i]);
+    el[i].style.transform = "translateY(" + distance * mult + "px)";
+  }
 }
 
 if (window.addEventListener) {
