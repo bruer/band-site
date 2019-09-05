@@ -1,11 +1,13 @@
-// start valesca
+body {
+    background-image: url("/assets/background-image.jpg");
+}
 
 .music-videos-container {
     width: 80%;
     margin: 300px auto auto auto;
     padding: 20px;
     text-align: center;
-    background-color: $main-yellow;
+    background: linear-gradient(to bottom, #fdff00 0%, #78cf00 100%);
 }
 
 .music-videos-container-discography {
@@ -15,16 +17,30 @@
     gap: 50px;
     width: 80%;
     margin: auto;
-    // border: 1px solid black;
 }
 
 .music-videos-discography-images {
     width: 100%;
-    // border: 1px solid black;
+    position: relative;
+    z-index: 20;
 }
 
-// .music-videos-discography-item {
-//   border: 1px solid black;
-// }
+#music-videos-leaf-1-box {
+    position: absolute;
+    top: 500px;
+    width: 15%;
+    z-index: 10;
+}
 
-// end valesca
+.music-videos-leaf-1 {
+    width: 100%;
+}
+
+.music-videos-leaf-2 {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    width: 25%;
+    z-index: 10;
+}
+
