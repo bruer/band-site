@@ -14,6 +14,5 @@ if (window.addEventListener) {
 
 function elementDistanceFromBottomOfViewport(el) {
   let rect = el.getBoundingClientRect();
-
   return window.innerHeight - rect.top;
 }

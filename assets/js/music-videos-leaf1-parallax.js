@@ -1,6 +1,6 @@
 function parallaxLeif1() {
   let container = document.getElementById("music-videos-leaf-1-box");
-  console.log(container);
+  // console.log(container);
   let multiplier = 0.4;
   let distance = elementDistanceFromBottomOfViewport(container);
 
