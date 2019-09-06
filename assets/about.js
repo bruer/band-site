@@ -1,5 +1,5 @@
 function parallax() {
-  var box = document.querySelector(".about-foreground");
+  var box = document.querySelector(".about-foreground ");
 
   var multiplier = 0.2;
 
