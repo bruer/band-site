@@ -1,0 +1,83 @@
+- name: ""
+  pris: "300 kr"
+  url: "./assets/store-images/store_1.jpg"
+
+- name: ""
+  pris: "300 kr"
+  url: "./assets/store-images/store_2.jpg"
+
+- name: ""
+  pris: "300 kr"
+  url: "./assets/store-images/store_3.jpg"
+
+- name: ""
+  pris: "300 kr"
+  url: "./assets/store-images/store_4.jpg"
+
+- name: ""
+  pris: "700 kr"
+  url: "./assets/store-images/store_5.jpg"
+
+- name: ""
+  pris: "300 kr"
+  url: "./assets/store-images/store_6.jpg"
+
+- name: ""
+  pris: "400 kr"
+  url: "./assets/store-images/store_7.jpg"
+
+- name: ""
+  pris: "400 kr"
+  url: "./assets/store-images/store_8.jpg"
+
+- name: ""
+  pris: "500 kr"
+  url: "./assets/store-images/store_9.jpg"
+
+- name: ""
+  pris: "150 kr"
+  url: "./assets/store-images/store_10.jpg"
+
+- name: ""
+  pris: "550 kr"
+  url: "./assets/store-images/store_11.jpg"
+
+- name: ""
+  pris: "550 kr"
+  url: "./assets/store-images/store_12.jpeg"
+
+- name: ""
+  pris: "550 kr"
+  url: "./assets/store-images/store_13.jpeg"
+
+- name: ""
+  pris: "550 kr"
+  url: "./assets/store-images/store_14.jpeg"
+
+- name: ""
+  pris: "300 kr"
+  url: "./assets/store-images/store_15.jpeg"
+
+- name: ""
+  pris: "800 kr"
+  url: "./assets/store-images/store_16.jpeg"
+
+- name: ""
+  pris: "400 kr"
+  url: "./assets/store-images/store_17.jpeg"
+
+- name: ""
+  pris: "150 kr"
+  url: "./assets/store-images/store_18.jpeg"
+
+- name: ""
+  pris: "100 kr"
+  url: "./assets/store-images/store_19.jpeg"
+
+- name: ""
+  pris: "550 kr"  
+  url: "./assets/store-images/store_20.jpeg"
+
+- name: ""
+  pris: "100 kr"
+  url: "./assets/store-images/store_21.jpeg"

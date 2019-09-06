@@ -17,6 +17,13 @@ function parallax() {
   // });
 }
 
+function parallaxLeaf() {
+  var leaf = document.querySelector(".leaf-1-box");
+  var multiplier = 0.5;
+  var distance = elementDistanceFromBottomOfViewport(leaf);
+  leaf.style.transform = "translateY(" + distance * multiplier + "px)";
+}
+
 function setBackgroundHeight() {
   var bg = document.querySelector(".about-background");
   var boxes = document.querySelectorAll(".about-foreground");
@@ -35,6 +42,7 @@ if (window.addEventListener) {
   addEventListener("DOMContentLoaded", parallax, false);
   addEventListener("load", parallax, false);
   addEventListener("scroll", parallax, false);
+  
 }
 
 function elementDistanceFromBottomOfViewport(el) {
