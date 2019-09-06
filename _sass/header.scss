@@ -2,16 +2,16 @@
     display: flex;
     margin: auto;
     background-image: url("/assets/img/header.png");
+    background-repeat: no-repeat;
     height: 520px;
     width: 1024px;
-    background-repeat: no-repeat;
 }
 
 nav {
     display: flex;
     margin: auto;
     width: 1024px;
-    margin-top: -4.5%;
+    margin-top: -3.8%;
 }
 
 a {
@@ -21,8 +21,8 @@ a {
 }
 
 ul {
-    font-family: $roboto;
-    font-weight: 700;
+    font-family: $roboto-sans;
+    font-weight: 500;
     font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -34,15 +34,16 @@ ul {
     padding: 0;
 
     li {
-        margin: 0% 1% 0% 0%;
+        margin: 0% 0.5% 0% 0%;
         width: 110px;
-        padding: 1.5% 1.5% 1.5% 1.5%;
+        padding: 2% 2% 2% 2%;
         text-align: center;
     }
 }
 
 .bg-darkGreen {
     background-color: $darkGreen;
+    background-image: url("/assets/img/noise-light.png");
 }
 
     a {
@@ -64,26 +65,30 @@ ul {
 
 .bg-green {
     background-color: $green;
+    background-image: url("/assets/img/noise-light.png");
 }
 
 .bg-yellowGreen {
     background-color: $yellowGreen;
+    background-image: url("/assets/img/noise-light.png");
 }
 
 .bg-orange {
     background-color: $orange;
-    }
-    
-    .bg-darkOrange {
-        background-color: $darkOrange;
+    background-image: url("/assets/img/noise-light.png");
+}
+
+.bg-darkOrange {
+    background-color: $darkOrange;
+    background-image: url("/assets/img/noise-light.png");
 }
 
 
-    a{
-        &:hover:before {
-            visibility: visible;
-            -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-        }
+a{
+    &:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
     
     }

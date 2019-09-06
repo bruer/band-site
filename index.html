@@ -1,0 +1,66 @@
+---
+layout: default
+title: "Home"
+---
+<div class="item-box bg-green">
+    <h1>Video preview</h1>
+        <div class="leaf-1-box">
+            <img class="leaf-1" src="../assets/img/leaf.png" alt="leaf 1">
+        </div>
+        <div class="leaf-2-box">
+            <img class="leaf-2" src="../assets/img/leaf_2.png" alt="leaf 2">
+        </div>
+        
+        <div class="videos-container">
+            {% for item in site.data.videos %}
+            <div>
+                <iframe class="videos-iframes" src="{{ item.url }}" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>{{ item.name }}</p>
+            </div>
+            {% endfor %}
+    </div>
+
+</div>
+<div class="item-box bg-darkOrange">
+    <h1>Music preview</h1>
+        <div class="leaf-1-box">
+            <img class="leaf-1" src="../assets/img/leaf.png" alt="leaf 1">
+        </div>
+        <div class="leaf-2-box">
+            <img class="leaf-2" src="../assets/img/leaf_2.png" alt="leaf 2">
+        </div>
+        <div class="music-container-discography">
+            {% for item in site.data.discography %}
+            <div class="music-discography-item">
+                <img src="{{item.url}}" class="music-discography-images" alt="item.name">
+                <p>{{item.name}}</p>
+            </div>
+            {% endfor %}
+    </div>
+
+</div>
+<div class="item-box bg-orange">
+    <h1>Store preview</h1>
+
+</div>
+<div class="item-box bg-yellowGreen">
+    <h1>History preview</h1>
+
+</div>
+<div class="item-box bg-darkGreen">
+    <h1>Contact form preview</h1>
+    <form action="post">
+        <fieldset>
+            <legend><h3>Name</h3></legend>
+            <input type="text">
+            <legend><h3>Email</h3></legend>
+            <input type="text">
+        </fieldset>
+    </form>
+
+</div>
+
+<script src="../assets/js/music-videos.js"></script>
+<script src="../assets/js/music-videos.js"></script>
