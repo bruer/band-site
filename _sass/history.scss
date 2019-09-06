@@ -1,9 +1,9 @@
 .about-container {
     width: 1024px;
     margin: auto;
-    padding: 20px;
+    padding: 100px 0;
     text-align: center;
-    // background: linear-gradient(to bottom, $yellowGreen 0%, $green 100%);
+    background: linear-gradient(to bottom, $yellowGreen 0%, $green 100%);
     // background-image: url(/assets/img/noise-light.png);
 
     display: flex;
@@ -12,16 +12,14 @@
 }
 
 .about-container p {
-    background-image: url(/assets/img/noise.png);
+    // background-image: url(/assets/img/noise.png);
     width: 75%;
-    padding: 50px;
+    // padding: 50px;
     // margin: 200px 0;
 
     text-align: center;
     font-size: 17.5px;
     line-height: 2;
-}
 
-.leaf-history {
-    // left: 0px;
+    z-index: 20;
 }
