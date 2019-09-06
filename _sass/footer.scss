@@ -1,4 +1,30 @@
 footer {
-    height: 100px;
+    display: flex;
+    background: linear-gradient(to bottom, $green 0%, $darkGreen 100%);
     width: 1024px;
+    margin: auto;
+    padding: 2% 0% 2% 0%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    text-align: center;
+}
+
+
+.footer-list {
+    font-weight: 400;
+    display: inline-block;
+
+    li {
+        text-align: center;
+        padding: 3% 0% 3% 0%;
+        width: 100%;
+        img {
+            width: 25px;
+        }
+    }
 }
