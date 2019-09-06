@@ -7,13 +7,12 @@ $orange: #FFB300;
 $darkOrange: #FF5911;
 
 
-$backgroundColor: green;
 $bodyColor: #000000;
 $roboto: 'Roboto Slab',
 serif;
 
 body {
-  background: linear-gradient(to bottom, #ffb300 0%, #ff5911 100%) fixed;
+  background: linear-gradient(to bottom, $darkGreen 0%, $green 15%,  $yellowGreen 40%, $orange 70%, $darkOrange 100%) fixed;
   color: $bodyColor;
   font-family: $roboto;
 }
