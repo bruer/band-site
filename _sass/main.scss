@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
 $darkGreen: #009B41;
 $green: #78CE00;
@@ -8,8 +9,8 @@ $darkOrange: #FF5911;
 
 
 $bodyColor: #000000;
-$roboto: 'Roboto Slab',
-serif;
+$roboto: 'Roboto Slab', serif;
+$roboto-sans: 'Roboto', sans-serif;
 
 body {
   background: linear-gradient(to bottom, $darkGreen 0%, $green 15%,  $yellowGreen 40%, $orange 70%, $darkOrange 100%) fixed;
