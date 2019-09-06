@@ -9,9 +9,11 @@
     flex-direction: column;
     align-items: center;
 
-    background-image: url(/assets/img/band_designelements.png);
+    // background-image: url(/assets/img/band_designelements.png);
+    background-image: url(/assets/img/bm-about.png);
     // background-size: cover;
-    background-repeat: repeat;
+    // background-repeat: repeat;
+    // background-color: #fff;
 }
 
 .about-text {
@@ -20,7 +22,8 @@
     width: 50%;
     // height: 300px;
     padding: 50px;
-    margin: 100px 0;
+    margin: 300px 0;
+    // margin-top: 300px;
 
     display: flex;
     justify-content: center;
@@ -32,17 +35,15 @@
     // overflow: scroll;
     opacity: 0.95;
 
-    transform: translateY(200px);
+    // transform: translateY(200px);
 }
 
 .about-foreground {
     background-color: lightgray;
     
     width: 50%;
-    // height: 50%;
     padding: 50px;
-    margin: 50px;
-    transform: translateY(200px);
+    margin: 200px 0;
 
     text-align: center;
     font-size: 17.5px;
