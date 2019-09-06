@@ -14,13 +14,11 @@ title: Music
     </div>
     <h1>Music</h1>
     <div class="music-container-discography">
-        {% for file in site.static_files %}
-        {% if file.image %}
+        {% for item in site.data. %}
         <div class="music-discography-item">
             <img src="{{file.path}}" class="music-discography-images" alt="file.name">
             <p>{{file.basename}}</p>
         </div>
-        {% endif %}
         {% endfor %}
     </div>
 </div>
