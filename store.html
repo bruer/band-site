@@ -1,0 +1,19 @@
+---
+layout: default
+title: Store
+---
+
+<div class="store-container">
+    <div class="store-slideshow">
+
+    </div>
+    <h1>Store</h1>
+    <div class="music-container-discography">
+        {% for item in site.data.store %}
+        <div>
+            <img src="{{item.url}}" class="music-discography-images" alt="">
+            <p>{{item.pris}}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
