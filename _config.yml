@@ -4,6 +4,6 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 defaults:
   - scope:
-      path: "assets/img"
+      path: "assets/music-images"
     values:
       image: true

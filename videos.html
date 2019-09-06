@@ -1,0 +1,27 @@
+---
+layout: default
+title: Videos
+---
+
+<div class="music-videos-container">
+    <div class="leaf-1-box">
+        <img class="leaf-1" src="../assets/img/leaf.png" alt="leaf 1">
+    </div>
+    <div class="leaf-2-box">
+        <img class="leaf-2" src="../assets/img/leaf_2.png" alt="leaf 2">
+    </div>
+    <h1>Videos</h1>
+    <iframe class="video-iframe" src="https://www.youtube.com/embed/AFWy1qyyMHE" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="videos-container">
+        {% for item in site.data.videos %}
+        <div>
+            <iframe class="videos-iframes" src="{{ item.url }}" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p>{{ item.name }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<script src="../assets/js/music-videos.js"></script>
