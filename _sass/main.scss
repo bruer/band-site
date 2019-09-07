@@ -16,6 +16,7 @@ body {
   background: linear-gradient(to bottom, $darkGreen 0%, $green 15%,  $yellowGreen 40%, $orange 70%, $darkOrange 100%) fixed;
   color: $bodyColor;
   font-family: $roboto;
+  scroll-behavior: smooth;
 }
 
 .leaf-2-box {
