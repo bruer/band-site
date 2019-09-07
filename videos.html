@@ -3,17 +3,17 @@ layout: default
 title: Videos
 ---
 
-<div class="music-videos-container">
-    <div class="leaf-1-box">
+<div class="videos-container">
+    <div class="leaf-1-box parallaxUp">
         <img class="leaf-1" src="../assets/img/leaf.png" alt="leaf 1">
     </div>
-    <div class="leaf-2-box">
+    <div class="leaf-2-box parallaxDown">
         <img class="leaf-2" src="../assets/img/leaf_2.png" alt="leaf 2">
     </div>
     <h1>Videos</h1>
     <iframe class="video-iframe" src="https://www.youtube.com/embed/AFWy1qyyMHE" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="videos-container">
+    <div class="videos-iframes-container">
         {% for item in site.data.videos %}
         <div>
             <iframe class="videos-iframes" src="{{ item.url }}" frameborder="0"
