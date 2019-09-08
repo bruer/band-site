@@ -1,3 +1,62 @@
+if (window.addEventListener) {
+  addEventListener("DOMContentLoaded", parallaxLeaf, false);
+  addEventListener("load", parallaxLeaf, false);
+  addEventListener("scroll", parallaxLeaf, false);
+}
+
+function elementDistanceFromBottomOfViewport(el) {
+  let rect = el.getBoundingClientRect();
+  return window.innerHeight - rect.top;
+}
+
+function parallaxLeaf() {
+  let leaf1 = document.querySelector(".leaf-box-1");
+  let leaf2 = document.querySelector(".leaf-box-2");
+  let leaf3 = document.querySelector(".leaf-box-3");
+  let leaf4 = document.querySelector(".leaf-box-4");
+
+  translate(leaf1, 0.2, "-");
+  translate(leaf2, 0.5, "");
+  translate(leaf3, 0.3, "-");
+  translate(leaf4, 0.2, "");
+}
+
+function translate(element, n, direction) {
+  let distance = elementDistanceFromBottomOfViewport(element);
+  let multiplier = n;
+
+  element.style.transform = "translateY(" + direction + distance * multiplier + "px)";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function parallax() {
   var box = document.querySelector(".about-foreground ");
 
@@ -17,13 +76,6 @@ function parallax() {
   // });
 }
 
-function parallaxLeaf() {
-  var leaf = document.querySelector(".leaf-1-box");
-  var multiplier = 0.5;
-  var distance = elementDistanceFromBottomOfViewport(leaf);
-  leaf.style.transform = "translateY(" + distance * multiplier + "px)";
-}
-
 function setBackgroundHeight() {
   var bg = document.querySelector(".about-background");
   var boxes = document.querySelectorAll(".about-foreground");
@@ -35,17 +87,4 @@ function setBackgroundHeight() {
   // });
 
   bg.style.height = lastBox.offsetTop + lastBox.offsetHeight + "px";
-}
-
-if (window.addEventListener) {
-  addEventListener("DOMContentLoaded", setBackgroundHeight, false);
-  addEventListener("DOMContentLoaded", parallax, false);
-  addEventListener("load", parallax, false);
-  addEventListener("scroll", parallax, false);
-  
-}
-
-function elementDistanceFromBottomOfViewport(el) {
-  var rect = el.getBoundingClientRect();
-  return window.innerHeight - rect.top;
 }
