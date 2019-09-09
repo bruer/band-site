@@ -1,7 +1,7 @@
 // parallaxUp
 
 function parallaxUp() {
-  let el = document.querySelectorAll(".leaf-1-box");
+  let el = document.querySelectorAll(".parallaxUp");
   let mult = 0.1;
   for (let i = 0; i < el.length; i++) {
     let distance = elementDistanceFromBottomOfViewport(el[i]);
@@ -18,7 +18,7 @@ if (window.addEventListener) {
 // parallaxDown
 
 function parallaxDown() {
-  let el = document.querySelectorAll(".leaf-2-box");
+  let el = document.querySelectorAll(".parallaxDown");
   let mult = 0.5;
   for (let i = 0; i < el.length; i++) {
     let distance = elementDistanceFromBottomOfViewport(el[i]);
@@ -38,3 +38,24 @@ function elementDistanceFromBottomOfViewport(el) {
   let rect = el.getBoundingClientRect();
   return window.innerHeight - rect.top;
 }
+
+
+
+// function parallax() {
+//   let container = document.getElementById("music-videos-container");
+//   let multiplier = 0.3;
+//   let distance = elementDistanceFromBottomOfViewport(container);
+
+//   container.style.transform = "translateY(-" + distance * multiplier + "px)";
+// }
+
+// if (window.addEventListener) {
+//   addEventListener('DOMContentLoaded', parallax, false);
+//   addEventListener('load', parallax, false);
+//   addEventListener('scroll', parallax, false);
+// }
+
+// function elementDistanceFromBottomOfViewport(el) {
+//   let rect = el.getBoundingClientRect();
+//   return window.innerHeight - rect.top;
+// }

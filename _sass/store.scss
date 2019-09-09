@@ -1,0 +1,84 @@
+.store-container {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    background-color: $orange;
+    background-image: url("/assets/img/noise-light.png");
+}
+
+.store-item {
+    background-color: $darkOrange;
+    background-image: url("/assets/img/noise-light.png");
+    padding: 10px;
+    z-index: 20;
+}
+
+/********** SLIDER **********/
+.slider {
+    width: 100%;
+    margin: 0px auto 30px auto;
+}
+
+.slide-viewer {
+    position: relative;
+    /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;
+}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+/********** BUTTONS **********/
+.slide-buttons {
+    text-align: center;
+}
+
+.slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;
+}
+
+.slide-btn.active,
+.slide-btn:hover {
+    color: #ed8e6c;
+    cursor: pointer;
+}
+
+.slide-image {
+    width: 80%;
+    // height: 100%;
+}
+
+.slide-image-1 {
+    position: relative;
+    top: -60px;
+}
+
+.slide-image-2 {
+    position: relative;
+    top: -70px;
+}
+
+.slide-image-4 {
+    position: relative;
+    top: -100px;
+}
