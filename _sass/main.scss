@@ -19,6 +19,19 @@ body {
   scroll-behavior: smooth;
 }
 
+.floral-box {
+  position: absolute;
+  top: 700px;
+  right: 70%;
+  z-index: 10;
+}
+.fish-box {
+  position: absolute;
+  top: 700px;
+  right: 50px;
+  z-index: 10;
+}
+
 .leaf-box {
   position: absolute;
   z-index: 10;

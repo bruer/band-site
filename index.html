@@ -3,36 +3,35 @@ layout: default
 title: "Home"
 ---
 <div class="item-box bg-green">
-    <h1>Video preview</h1>
-        <div class="leaf-1-box parallaxUp">
-            <img class="leaf-1" src="../assets/img/leaf.png" alt="leaf 1">
+    <h2>Video preview</h2>
+        <div class="floral-box parallaxUp">
+            <img src="../assets/img/BM_floral.png" alt="fish">
         </div>
-        <div class="leaf-2-box parallaxDown">
-            <img class="leaf-2" src="../assets/img/leaf_2.png" alt="leaf 2">
+        <div class="fish-box parallaxDown">
+                <img src="../assets/img/BM_fish.png" alt="fish">
         </div>
-        
+
         <div class="videos-iframes-container">
-            {% for item in site.data.videos %}
-            <div>
+            {% for item in site.data.videos | limit: 2 %}
+            <div class="videos-iframe-box">
                 <iframe class="videos-iframes" src="{{ item.url }}" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>{{ item.name }}</p>
             </div>
             {% endfor %}
-    </div>
+        </div>
 
 </div>
 <div class="item-box bg-darkOrange">
-    <h1>Music preview</h1>
-        <div class="leaf-1-box">
+    <h2>Music preview</h2>
+        <!-- <div class="leaf-1-box">
             <img class="leaf-1" src="../assets/img/leaf.png" alt="leaf 1">
         </div>
         <div class="leaf-2-box">
             <img class="leaf-2" src="../assets/img/leaf_2.png" alt="leaf 2">
-        </div>
+        </div> -->
         <div class="music-container-discography">
-            {% for item in site.data.discography %}
+            {% for item in site.data.discography | limit: 3 %}
             <div class="music-discography-item">
                 <img src="{{item.url}}" class="music-discography-images" alt="item.name">
                 <p>{{item.name}}</p>
@@ -42,22 +41,29 @@ title: "Home"
 
 </div>
 <div class="item-box bg-orange">
-    <h1>Store preview</h1>
+    <h2>Store preview</h2>
 
 </div>
 <div class="item-box bg-yellowGreen">
-    <h1>History preview</h1>
+    <h2>History preview</h2>
 
 </div>
 <div class="item-box bg-darkGreen">
-    <h1>Contact form preview</h1>
+    <h2>Subscribe</h2>
     <form action="post">
         <fieldset>
-            <legend><h3>Name</h3></legend>
-            <input type="text">
-            <legend><h3>Email</h3></legend>
-            <input type="text">
+            <div class="email">
+                <input type="text" placeholder="email">
+            </div>
+            <div class="name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="btn-index">
+                    <button>Send</button>
+            </div>
         </fieldset>
     </form>
-
 </div>
+
+<script src="../assets/js/parallax.js"></script>
