@@ -9,6 +9,56 @@ function elementDistanceFromBottomOfViewport(el) {
   return window.innerHeight - rect.top;
 }
 
+/* TEST - funkar ej */
+/* function parallaxTest(attribute) {
+  let el = document.querySelectorAll(".parallaxTest");
+  let n = +attribute.getAttribute("number");
+  console.log(n + "hellooooooooooo n");
+  for (let i = 0; i < el.length; i++) {
+    let distance = elementDistanceFromBottomOfViewport(el[i]);
+    el[i].style.transform = "translateX(-" + distance * n + "px)";
+  }
+}
+
+if (window.addEventListener) {
+  addEventListener('DOMContentLoaded', parallaxTest, false);
+  addEventListener('load', parallaxTest, false);
+  addEventListener('scroll', parallaxTest("attribute"), false);
+} */
+
+// parallaxLeft
+function parallaxLeft() {
+  let el = document.querySelectorAll(".parallaxLeft");
+  let mult = 0.3;
+  for (let i = 0; i < el.length; i++) {
+    let distance = elementDistanceFromBottomOfViewport(el[i]);
+    el[i].style.transform = "translateX(-" + distance * mult + "px)";
+  }
+}
+
+if (window.addEventListener) {
+  addEventListener('DOMContentLoaded', parallaxLeft, false);
+  addEventListener('load', parallaxLeft, false);
+  addEventListener('scroll', parallaxLeft, false);
+}
+
+// parallaxRight
+function parallaxRight() {
+  let el = document.querySelectorAll(".parallaxRight");
+  let mult = 0.5;
+  for (let i = 0; i < el.length; i++) {
+    let distance = elementDistanceFromBottomOfViewport(el[i]);
+    el[i].style.transform = "translateX(" + distance * mult + "px)";
+  }
+}
+
+if (window.addEventListener) {
+  addEventListener('DOMContentLoaded', parallaxRight, false);
+  addEventListener('load', parallaxRight, false);
+  addEventListener('scroll', parallaxRight, false);
+}
+
+// parallaxDown
 function translate(element, n, direction) {
   let distance = elementDistanceFromBottomOfViewport(element);
   let multiplier = n;
@@ -35,35 +85,6 @@ function parallaxLeaf() {
   translate(leaf7, 0.7, "");
   translate(leaf8, 0.4, "-");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function parallax() {
   var box = document.querySelector(".about-foreground ");
