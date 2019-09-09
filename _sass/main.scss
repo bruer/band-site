@@ -16,4 +16,26 @@ body {
   background: linear-gradient(to bottom, $darkGreen 0%, $green 15%,  $yellowGreen 40%, $orange 70%, $darkOrange 100%) fixed;
   color: $bodyColor;
   font-family: $roboto;
+  scroll-behavior: smooth;
+}
+
+.leaf-2-box {
+  position: absolute;
+  top: 700px;
+  right: 50px;
+  width: 25%;
+  z-index: 10;
+}
+
+.leaf-1-box {
+  position: absolute;
+  top: 700px;
+  left: 50px;
+  width: 20%;
+  z-index: 10;
+}
+
+.leaf-1,
+.leaf-2 {
+  width: 100%;
 }
