@@ -4,23 +4,22 @@ title: "Home"
 ---
 <div class="item-box bg-green">
     <h2>Video preview</h2>
-        <div class="leaf-1-box">
-            <img src="../assets/img/BM_leaf_2.png" alt="fish">
+        <div class="floral-box parallaxUp">
+            <img src="../assets/img/BM_floral.png" alt="fish">
         </div>
-        <div class="leaf-2-box">
+        <div class="fish-box parallaxDown">
                 <img src="../assets/img/BM_fish.png" alt="fish">
         </div>
-        
-        <div class="videos-container">
+
+        <div class="videos-iframes-container">
             {% for item in site.data.videos | limit: 2 %}
-            <div>
+            <div class="videos-iframe-box">
                 <iframe class="videos-iframes" src="{{ item.url }}" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>{{ item.name }}</p>
             </div>
             {% endfor %}
-    </div>
+        </div>
 
 </div>
 <div class="item-box bg-darkOrange">
@@ -67,5 +66,4 @@ title: "Home"
     </form>
 </div>
 
-<script src="../assets/js/music-videos.js"></script>
-<script src="../assets/js/music-videos.js"></script>
+<script src="../assets/js/parallax.js"></script>
