@@ -12,6 +12,7 @@ footer {
     flex-basis: 100%;
     flex: 1;
     text-align: center;
+    z-index: 30;
 }
 
 
@@ -23,8 +24,32 @@ footer {
         text-align: center;
         padding: 3% 0% 3% 0%;
         width: 100%;
+
         img {
             width: 25px;
         }
     }
+}
+
+.fish1-box-footer {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    z-index: 10;
+}
+
+.fish1-footer {
+    width: 100%;
+}
+
+.fish2-box-footer {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    z-index: 10;
+}
+
+.fish2-footer {
+    width: 100%;
+    transform: scaleX(-1);
 }
