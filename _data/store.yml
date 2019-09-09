@@ -1,83 +1,83 @@
-- name: ""
+- name: "T-Shirt"
   pris: "300 kr"
   url: "./assets/store-images/store_1.jpg"
 
-- name: ""
+- name: "T-Shirt"
   pris: "300 kr"
   url: "./assets/store-images/store_2.jpg"
 
-- name: ""
+- name: "T-Shirt"
   pris: "300 kr"
   url: "./assets/store-images/store_3.jpg"
 
-- name: ""
+- name: "T-Shirt"
   pris: "300 kr"
   url: "./assets/store-images/store_4.jpg"
 
-- name: ""
+- name: "Sweater"
   pris: "700 kr"
   url: "./assets/store-images/store_5.jpg"
 
-- name: ""
+- name: "T-Shirt"
   pris: "300 kr"
   url: "./assets/store-images/store_6.jpg"
 
-- name: ""
+- name: "Cap"
   pris: "400 kr"
   url: "./assets/store-images/store_7.jpg"
 
-- name: ""
+- name: "Cap"
   pris: "400 kr"
   url: "./assets/store-images/store_8.jpg"
 
-- name: ""
+- name: "Cap"
   pris: "500 kr"
   url: "./assets/store-images/store_9.jpg"
 
-- name: ""
+- name: "Bag"
   pris: "150 kr"
   url: "./assets/store-images/store_10.jpg"
 
-- name: ""
+- name: "Necklace"
   pris: "550 kr"
   url: "./assets/store-images/store_11.jpg"
 
-- name: ""
+- name: "Vinyl"
   pris: "550 kr"
   url: "./assets/store-images/store_12.jpeg"
 
-- name: ""
+- name: "Vinyl"
   pris: "550 kr"
   url: "./assets/store-images/store_13.jpeg"
 
-- name: ""
+- name: "Vinyl"
   pris: "550 kr"
   url: "./assets/store-images/store_14.jpeg"
 
-- name: ""
+- name: "Vinyl"
   pris: "300 kr"
   url: "./assets/store-images/store_15.jpeg"
 
-- name: ""
+- name: "CD Box"
   pris: "800 kr"
   url: "./assets/store-images/store_16.jpeg"
 
-- name: ""
+- name: "Sneakers"
   pris: "400 kr"
   url: "./assets/store-images/store_17.jpeg"
 
-- name: ""
+- name: "CD Box"
   pris: "150 kr"
   url: "./assets/store-images/store_18.jpeg"
 
-- name: ""
+- name: "Cup"
   pris: "100 kr"
   url: "./assets/store-images/store_19.jpeg"
 
-- name: ""
+- name: "Vynil Box"
   pris: "550 kr"  
   url: "./assets/store-images/store_20.jpeg"
 
-- name: ""
+- name: "CD"
   pris: "100 kr"
   url: "./assets/store-images/store_21.jpeg"
