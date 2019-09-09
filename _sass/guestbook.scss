@@ -1,0 +1,38 @@
+.gb-container {
+    text-align: center;
+}
+
+// ul {
+//     font-family: $roboto-sans;
+//     font-weight: 500;
+//     font-size: 1.2em;
+//     text-transform: uppercase;
+//     letter-spacing: 1px;
+//     display: flex;
+//     width: 100%;
+//     list-style: none;
+//     justify-content: flex-start;
+//     margin: 0;
+//     padding: 0;
+
+//     li {
+//         margin: 0% 0.5% 0% 0%;
+//         width: 110px;
+//         padding: 2% 2% 2% 2%;
+//         text-align: center;
+//     }
+// }
+
+.post-list {
+    text-transform: none;
+    font-weight: unset;
+    font-size: unset;
+    letter-spacing: unset;
+}
+
+.post-list li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
