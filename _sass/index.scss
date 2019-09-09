@@ -10,6 +10,18 @@ $darkOrange: #FF5911;
     padding: 3% 0% 3% 0%;
 }
 
+.text-history {
+    h2{
+        color: $darkGreen;
+    }
+    h3{
+        margin: auto;
+        width: 800px;
+        color: $darkGreen;
+        text-align: center;
+    }
+}
+
 h2 {
     text-align: center;
     font-family: $roboto-sans;

@@ -5,6 +5,24 @@
     background-repeat: no-repeat;
     height: 520px;
     width: 1024px;
+    z-index: 2;
+}
+
+.cloud-big-box {
+    position: absolute;
+    background-image: url("/assets/img/BM_cloud_big.png");
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 510px;
+    top: 20%;
+    right: 90%;
+    z-index: -10;
+}
+.cloud-small-box {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    z-index: 1;
 }
 
 nav {
