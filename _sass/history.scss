@@ -3,8 +3,8 @@
     margin: auto;
     padding: 100px 0;
     text-align: center;
-    background: linear-gradient(to bottom, $yellowGreen 0%, $green 100%);
-    // background-image: url(/assets/img/noise-light.png);
+    background-image: url("/assets/img/noise-light.png");
+    background-color: $yellowGreen;
 
     display: flex;
     flex-direction: column;

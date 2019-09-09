@@ -1,38 +1,35 @@
 .gb-container {
+    width: 1024px;
+    margin: auto;
+    padding: 10px 0;
     text-align: center;
+    background: linear-gradient(to bottom, $yellowGreen 0%, $green 100%);
+    background-color: $darkGreen;
+    background-image: url("/assets/img/noise-light.png");
 }
 
-// ul {
-//     font-family: $roboto-sans;
-//     font-weight: 500;
-//     font-size: 1.2em;
-//     text-transform: uppercase;
-//     letter-spacing: 1px;
-//     display: flex;
-//     width: 100%;
-//     list-style: none;
-//     justify-content: flex-start;
-//     margin: 0;
-//     padding: 0;
-
-//     li {
-//         margin: 0% 0.5% 0% 0%;
-//         width: 110px;
-//         padding: 2% 2% 2% 2%;
-//         text-align: center;
-//     }
-// }
-
 .post-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     text-transform: none;
     font-weight: unset;
     font-size: unset;
     letter-spacing: unset;
 }
 
+.post-list h2 {
+    text-transform: none;
+}
+
 .post-list li {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    width: 75%;
+    margin: 10px;
+    // padding: 0 50px;
+    // font-size: 30px;
+
+    background-color: $darkOrange;
+    background-image: url("/assets/img/noise-light.png");
 }
 
