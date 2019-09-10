@@ -12,7 +12,6 @@
 }
 
 .about-container p {
-  // background-image: url(/assets/img/noise.png);
   width: 75%;
 
   text-align: center;
@@ -32,10 +31,8 @@
 
 .img-container {
   position: absolute;
-  // z-index: 30;
   opacity: 0.85;
   width: 900px;
-  // border-radius: 10px;
 }
 
 .history-img {
@@ -75,55 +72,63 @@
   background-color: orange;
 }
 
-.leaf-box {
+.history-moving-img {
   position: absolute;
-  z-index: 10;
+  z-index: 1;
 }
 
-.leaf-box-1 {
-  width: 20%;
+.history-moving-box-1 {
   left: 50px;
   top: 700px;
 }
 
-.leaf-box-2 {
-  width: 25%;
+.history-moving-box-2 {
   right: 50px;
   top: 700px;
+  transform: rotate(180deg);
 }
 
-.leaf-box-3 {
-  width: 20%;
-  right: 120px;
-  top: 2000px;
+.history-moving-box-3 {
+  left: 0;
+  top: 1000px;
 }
+
+.history-moving-img-3 {
+  transform: rotate(180deg);
+}
+
+
+
+
+
+
 
 .leaf-box-4 {
-  width: 25%;
+  // width: 25%;
   left: 50px;
   top: 1400px;
 }
 
 .leaf-box-5 {
-  width: 20%;
+  // width: 20%;
   left: 50px;
   top: 2400px;
 }
 
 .leaf-box-6 {
-  width: 25%;
+  // width: 25%;
   right: 50px;
   top: 3000px;
 }
 
 .leaf-box-7 {
-  width: 20%;
+  // width: 20%;
   right: 100px;
   top: 3600px;
 }
 
 .leaf-box-8 {
-  width: 25%;
+  // width: 25%;
   left: 50px;
   top: 4000px;
 }
