@@ -9,6 +9,10 @@
     background-image: url("/assets/img/noise-light.png");
 }
 
-.post-container p {
-    // margin: 50px;
+.the-post {
+    margin: 100px;
+}
+
+.the-post a {
+    color: $orange;
 }

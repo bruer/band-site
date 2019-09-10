@@ -1,7 +1,7 @@
 .gb-container {
     width: 1024px;
     margin: auto;
-    padding: 10px 0;
+    padding: 20px 0 100px 0;
     text-align: center;
     background: linear-gradient(to bottom, $yellowGreen 0%, $green 100%);
     background-color: $darkGreen;
@@ -17,6 +17,9 @@
     font-weight: unset;
     font-size: unset;
     letter-spacing: unset;
+
+    position: relative;
+    // z-index: 2;
 }
 
 .post-list h2 {
@@ -26,10 +29,26 @@
 .post-list li {
     width: 75%;
     margin: 10px;
-    // padding: 0 50px;
-    // font-size: 30px;
 
     background-color: $darkOrange;
     background-image: url("/assets/img/noise-light.png");
 }
 
+.gb-img {
+    position: absolute;
+    // left: 100px;
+    // z-index: 1;
+}
+
+.gb-floral {
+    left: 100px;
+}
+
+.gb-cloud {
+    right: 0;
+}
+
+.gb-leaf {
+    right: 75px;
+    top: 1100px;
+}
