@@ -37,3 +37,30 @@
     height: 250px;
     position: relative;
 }
+
+// leaf-parallax
+
+.leif1-box {
+    width: 20%;
+    border: 1px solid black;
+}
+.leif2-box {
+    width: 25%;
+    border: 1px solid black;
+}
+.leif3-box {
+    width: 25%;
+    border: 1px solid black;
+}
+.leif4-box {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.leif1,
+.leif2,
+.leif3,
+.leif4
+{
+    width: 100%;
+}
