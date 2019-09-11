@@ -4,28 +4,27 @@ title: Guestbook
 ---
 
 <div class="gb-container">
-
   <div
-    class="gb-img gb-floral parallax"
+    class="gb-moving-img gb-img-box-1 parallax"
     data-direction="Y("
     data-mult="0.3"
   >
-    <img class="" src="/assets/img/BM_floral.png" alt="floral" />
+    <img src="/assets/img/BM_floral.png" alt="floral" />
   </div>
-  
+
   <div
-    class="gb-img gb-cloud parallax"
+    class="gb-moving-img gb-img-box-2 parallax"
     data-direction="X(-"
     data-mult="0.1"
   >
-    <img class="" src="/assets/img/BM_cloud_big.png" alt="cloud" />
+    <img src="/assets/img/BM_cloud_big.png" alt="cloud" />
   </div>
   <div
-    class="gb-img gb-leaf parallax"
+    class="gb-moving-img gb-img-box-3 parallax"
     data-direction="Y(-"
-    data-mult="0.2"
+    data-mult="0.3"
   >
-    <img class="" src="/assets/img/BM_leaf_2.png" alt="leaf" />
+    <img src="/assets/img/BM_leaf_2.png" alt="leaf" />
   </div>
 
   <h1>Latest Posts</h1>
@@ -33,10 +32,12 @@ title: Guestbook
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
-      <h2>
+      <h2 class="post-title">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h2>
-      <p>{{ post.excerpt }}</p>
+      <p class="post-author">by {{ post.author }}</p>
+      <p class="post-date">{{ post.date | date_to_string }}</p>
+      {{ post.excerpt }}
     </li>
     {% endfor %}
   </ul>

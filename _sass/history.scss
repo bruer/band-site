@@ -1,7 +1,7 @@
 .about-container {
   width: 1024px;
   margin: auto;
-  padding: 100px 0;
+  padding: 20px 0 100px 0;
   text-align: center;
   background-image: url("/assets/img/noise-light.png");
   background-color: $yellowGreen;
@@ -20,16 +20,17 @@
 
   z-index: 2;
 
-  color: red;
-  text-shadow: 1px 1px black;
+  color: $darkOrange;
+  text-shadow: 1px 1px $bodyColor;
 }
 
 .about-container i {
+  margin: 5px;
+  font-size: 12px;
   z-index: 2;
 }
 
 .history-img {
-  border: solid;
   width: 75%;
   height: 400px;
   opacity: 0.85;
@@ -71,18 +72,18 @@
   z-index: 1;
 }
 
-.history-moving-box-1 {
+.history-img-box-1 {
   left: 150px;
   top: 750px;
 }
 
-.history-moving-box-2 {
+.history-img-box-2 {
   right: 50px;
   top: 700px;
   transform: rotate(180deg);
 }
 
-.history-moving-box-3 {
+.history-img-box-3 {
   left: 0;
   top: 1250px;
 }
@@ -92,22 +93,22 @@
   transform: scaleX(-1);
 }
 
-.history-moving-box-4 {
+.history-img-box-4 {
   top: 1400px;
   right: 100px;
 }
 
-.history-moving-box-5 {
+.history-img-box-5 {
   top: 2000px;
   left: 175px;
 }
 
-.history-moving-box-6 {
+.history-img-box-6 {
   top: 2400px;
   right: 150px;
 }
 
-.history-moving-box-7 {
+.history-img-box-7 {
   top: 2850px;
   left: 100px;
 }
@@ -117,7 +118,7 @@
   // transform: rotate(180deg);
 }
 
-.history-moving-box-8 {
+.history-img-box-8 {
   top: 3000px;
   right: 200px;
 }
@@ -127,7 +128,7 @@
   transform: rotate(280deg);
 }
 
-.history-moving-box-9 {
+.history-img-box-9 {
   top: 3800px;
   left: 150px;
 }
@@ -137,7 +138,7 @@
   transform: rotate(180deg);
 }
 
-.history-moving-box-10 {
+.history-img-box-10 {
   top: 4150px;
   right: 0px;
 }
