@@ -37,3 +37,52 @@
     height: 250px;
     position: relative;
 }
+
+// leaf-parallax
+
+.video-leaf1-box {
+    width: 25%;
+    position: absolute;
+    left: 50px;
+    top: 1000px;
+}
+
+.video-leaf2-box {
+    width: 20%;
+    position: absolute;
+    right: 100px;
+    top: 1000px;
+}
+
+.video-leaf3-box {
+    width: 15%;
+    position: absolute;
+    left: 110px;
+    top: 2000px;
+}
+
+.video-leaf4-box {
+    width: 17%;
+    position: absolute;
+    top: 1900px;
+    right: 100px;
+}
+
+.video-leaf1,
+.video-leaf2,
+.video-leaf3,
+.video-leaf4 {
+    width: 100%;
+}
+
+.video-leaf1 {
+    transform: rotate(70deg);
+}
+
+.video-leaf3 {
+    transform: rotate(-30deg);
+}
+
+.video-leaf4 {
+    transform: rotate(90deg);
+}

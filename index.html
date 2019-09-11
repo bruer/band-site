@@ -15,7 +15,7 @@ title: "Home"
     </div>
 
     <div class="videos-iframes-container">
-        {% for item in site.data.videos | limit: 2 %}
+        {% for item in site.data.videos limit: 2 %}
         <div class="videos-iframe-box">
             <iframe class="videos-iframes" src="{{ item.url }}" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -32,7 +32,7 @@ title: "Home"
     <div data-mult="0.1" data-direction="Y(" class="index-leaf parallax">
     </div>
     <div class="music-container-discography">
-        {% for item in site.data.discography | limit: 3 %}
+        {% for item in site.data.discography limit: 3 %}
         <div class="music-discography-item">
             <img src="{{item.url}}" class="music-discography-images" alt="item.name">
             <p>{{item.name}}</p>
@@ -49,7 +49,7 @@ title: "Home"
     <div data-mult="0.2" data-direction="X(" class="index-leaf_5 parallax">
     </div>
     <div class="music-container-discography">
-        {% for item in site.data.store % | limit: 3 %}
+        {% for item in site.data.store limit: 3 %}
         <div class="store-item">
             <img src="{{item.url}}" class="music-discography-images" alt="">
             <p>{{item.pris}}</p>
