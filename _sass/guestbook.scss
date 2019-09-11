@@ -17,13 +17,6 @@
     font-weight: unset;
     font-size: unset;
     letter-spacing: unset;
-
-    position: relative;
-    // z-index: 2;
-}
-
-.post-list h2 {
-    text-transform: none;
 }
 
 .post-list li {
@@ -34,21 +27,39 @@
     background-image: url("/assets/img/noise-light.png");
 }
 
-.gb-img {
-    position: absolute;
-    // left: 100px;
-    // z-index: 1;
+.post-title a {
+    text-transform: none;
+    color: $orange;
+    text-shadow: 2px 2px $bodyColor;
+    font-size: 50px;
 }
 
-.gb-floral {
+.post-author {
+    font-style: italic;
+}
+
+.post-date {
+    font-size: 12px;
+}
+
+.post-list p:last-child {
+    font-size: 25px;
+    color: $bodyColor;
+}
+
+.gb-moving-img {
+    position: absolute;
+}
+
+.gb-img-box-1 {
     left: 100px;
 }
 
-.gb-cloud {
+.gb-img-box-2 {
     right: 0;
 }
 
-.gb-leaf {
+.gb-img-box-3 {
     right: 75px;
-    top: 1100px;
+    top: 1400px;
 }
