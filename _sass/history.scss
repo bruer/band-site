@@ -21,7 +21,7 @@
   z-index: 2;
 
   color: $darkOrange;
-  text-shadow: 1px 1px $bodyColor;
+  // text-shadow: 1px 1px $bodyColor;
 }
 
 .about-container i {
@@ -64,7 +64,7 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: orange;
+  background-color: $orange;
 }
 
 .history-moving-img {
