@@ -4,6 +4,34 @@ $yellowGreen: #FCFF00;
 $orange: #FFB300;
 $darkOrange: #FF5911;
 
+
+.index-leaf {
+    position: absolute;
+    background-image: url("/assets/img/BM_leaf_1.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 159px;
+    margin-top: 0%;
+    right: 15%;
+}
+.index-leaf_4 {
+    position: absolute;
+    background-image: url("/assets/img/BM_leaf_4.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    margin-top: 5%;
+    right: 5%;
+}
+.index-leaf_5 {
+    position: absolute;
+    background-image: url("/assets/img/BM_leaf_5.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    margin-top: 2%;
+    left: 5%;
+}
 .item-box {
     width: 1024px;
     margin: 2% auto 2% auto;

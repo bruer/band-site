@@ -4,12 +4,14 @@ title: "Home"
 ---
 
 <div data-mult="0.3" data-direction="X(-" class="fish-box parallax">
-    <img src="../assets/img/BM_fish.png" number="0.4" alt="fish">
+    <img src="../assets/img/BM_fish.png" alt="fish">
 </div>
+
+<!-- VIDEO -->
 <div class="item-box bg-green">
     <h2>Video preview</h2>
     <div data-mult="0.4" data-direction="Y(" class="floral-box parallax">
-        <img src="../assets/img/BM_floral.png" alt="fish">
+        <img src="../assets/img/BM_floral.png" alt="floral">
     </div>
 
     <div class="videos-iframes-container">
@@ -22,16 +24,13 @@ title: "Home"
         </div>
         {% endfor %}
     </div>
-
 </div>
+
+<!-- MUSIC -->
 <div class="item-box bg-darkOrange">
     <h2>Music preview</h2>
-    <!-- <div class="leaf-1-box">
-            <img class="leaf-1" src="../assets/img/leaf.png" alt="leaf 1">
-        </div>
-        <div class="leaf-2-box">
-            <img class="leaf-2" src="../assets/img/leaf_2.png" alt="leaf 2">
-        </div> -->
+    <div data-mult="0.1" data-direction="Y(" class="index-leaf parallax">
+    </div>
     <div class="music-container-discography">
         {% for item in site.data.discography limit: 3 %}
         <div class="music-discography-item">
@@ -40,10 +39,15 @@ title: "Home"
         </div>
         {% endfor %}
     </div>
-
 </div>
+
+<!-- STORE -->
 <div class="item-box bg-orange">
     <h2>Store preview</h2>
+    <div data-mult="0.2" data-direction="X(-" class="index-leaf_4 parallax">
+    </div>
+    <div data-mult="0.2" data-direction="X(" class="index-leaf_5 parallax">
+    </div>
     <div class="music-container-discography">
         {% for item in site.data.store limit: 3 %}
         <div class="store-item">
