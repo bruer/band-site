@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="post-container">
+  <div class="the-post">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+    {{ content }}
+
+    <a href="guestbook.html">Back</a>
+  </div>
+</div>

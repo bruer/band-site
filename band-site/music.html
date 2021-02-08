@@ -1,0 +1,28 @@
+---
+layout: default
+title: Music
+---
+
+<div class="music-container">
+  <div data-direction="Y(" data-mult="0.4" class="music-leaf1-box parallax">
+    <img class="music-leaf1" src="../assets/img/leaf.png" alt="leaf 1" />
+  </div>
+  <div data-direction="Y(-" data-mult="0.3" class="music-leaf2-box parallax">
+    <img class="music-leaf2" src="../assets/img/BM_floral.png" alt="leaf 2" />
+  </div>
+  <div data-direction="Y(-" data-mult="0.2" class="music-leaf3-box parallax">
+    <img class="music-leaf3" src="../assets/img/leaf_2.png" alt="leaf 3" />
+  </div>
+  <div data-direction="Y(" data-mult="0.4" class="music-leaf4-box parallax">
+    <img class="music-leaf4" src="../assets/img/leaf.png" alt="leaf 4" />
+  </div>
+  <h1 class="header-padding">Music</h1>
+  <div class="music-container-discography">
+    {% for item in site.data.discography %}
+    <div class="music-discography-item">
+      <img src="{{ item.url }}" class="music-discography-images" alt="item.name" />
+      <p>{{ item.name }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,83 @@
+.music-container {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0 100px 0;
+    text-align: center;
+    background-color: $darkOrange;
+    background-image: url("/assets/img/noise-light.png");
+}
+
+.music-container-discography {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.music-discography-item {
+    background-color: $darkGreen;
+    background-image: url("/assets/img/noise-light.png");
+    padding: 10px;
+    z-index: 20;
+}
+
+.music-discography-images {
+    width: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+// music-leaf-parallax
+
+.music-leaf1-box {
+    width: 14%;
+    position: absolute;
+    left: 140px;
+    top: 500px;
+}
+
+.music-leaf2-box {
+    width: 20%;
+    position: absolute;
+    right: 100px;
+    top: 1000px;
+}
+
+.music-leaf3-box {
+    width: 25%;
+    position: absolute;
+    left: 70px;
+    top: 2000px;
+}
+
+.music-leaf4-box {
+    width: 14%;
+    position: absolute;
+    top: 1900px;
+    right: 100px;
+}
+
+.music-leaf1,
+.music-leaf2,
+.music-leaf3,
+.music-leaf4 {
+    width: 100%;
+}
+
+.music-leaf1 {
+    transform: rotate(-30deg);
+}
+
+.music-leaf2 {
+    transform: rotate(-25deg);
+}
+
+.music-leaf3 {
+    transform: rotate(70deg);
+}
+
+.music-leaf4 {
+    transform: rotate(20deg);
+}

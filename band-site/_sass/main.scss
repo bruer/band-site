@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+$darkGreen: #009b41;
+$green: #78ce00;
+$yellowGreen: #fcff00;
+$orange: #ffb300;
+$darkOrange: #ff5911;
+
+$bodyColor: #000000;
+$roboto: "Roboto Slab", serif;
+$roboto-sans: "Roboto", sans-serif;
+
+body {
+  background: linear-gradient(
+      to bottom,
+      $darkGreen 0%,
+      $green 15%,
+      $yellowGreen 40%,
+      $orange 70%,
+      $darkOrange 100%
+    )
+    fixed;
+  color: $bodyColor;
+  font-family: $roboto;
+  scroll-behavior: smooth;
+}
+
+.header-padding {
+  margin-bottom: 45px;
+}
+
+.leaf-box {
+  position: absolute;
+  z-index: 10;
+}
+
+.leaf-box-1 {
+  width: 20%;
+  left: 50px;
+  top: 700px;
+}
+
+.leaf-box-2 {
+  width: 25%;
+  right: 50px;
+  top: 700px;
+}
+
+.leaf-box-3 {
+  width: 20%;
+  right: 120px;
+  top: 2000px;
+}
+
+// .leaf-box-4 {
+//   width: 25%;
+//   left: 50px;
+//   top: 1400px;
+// }
+
+// .leaf-box-5 {
+//   width: 20%;
+//   left: 50px;
+//   top: 2400px;
+// }
+
+// .leaf-box-6 {
+//   width: 25%;
+//   right: 50px;
+//   top: 3000px;
+// }
+
+// .leaf-box-7 {
+//   width: 20%;
+//   right: 100px;
+//   top: 3600px;
+// }
+
+// .leaf-box-8 {
+//   width: 25%;
+//   left: 50px;
+//   top: 4000px;
+// }
+
+// .leaf {
+//   width: 100%;
+// }
+
+// .leaf-3 {
+//   transform: rotate(310deg);
+// }
+
+// .leaf-4 {
+//   transform: rotate(180deg);
+// }
+
+// .leaf-6 {
+//   transform: rotate(320deg);
+// }
+
+// .leaf-7 {
+//   transform: rotate(210deg);
+// }
+
+// .leaf-8 {
+//   transform: rotate(160deg);
+// }
+
+// .videos-leaf-1 {
+//   position: relative;
+//   top: 150px;
+//   width: 70%;
+//   transform: rotate(-30deg);
+// }
+
+// .videos-leaf-2 {
+//   position: relative;
+//   top: 80px;
+//   right: -10px;
+//   width: 80%;
+//   transform: rotate(-20deg);
+  
+//   // border: 1px solid black;
+// }
+
+// .videos-leaf-3 {
+//   position: relative;
+//   // top: 150px;
+//   // width: 60%;
+//   transform: rotate(150deg);
+// }
+// .videos-leaf-4 {
+//   position: relative;
+//   top: 150px;
+//   width: 60%;
+//   transform: rotate(-30deg);
+// }

@@ -1,0 +1,88 @@
+.videos-container {
+    box-sizing: border-box;
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0 100px 0;
+    text-align: center;
+    background-color: $green;
+    background-image: url("/assets/img/noise-light.png");
+}
+
+.video-iframe {
+    width: 80%;
+    height: 500px;
+    position: relative;
+    z-index: 20;
+
+}
+
+.videos-iframes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.videos-iframe-box {
+    background-color: $darkGreen;
+    background-image: url("/assets/img/noise-light.png");
+    z-index: 20;
+    padding: 10px;
+}
+
+.videos-iframes {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+// leaf-parallax
+
+.video-leaf1-box {
+    width: 25%;
+    position: absolute;
+    left: 50px;
+    top: 1000px;
+}
+
+.video-leaf2-box {
+    width: 20%;
+    position: absolute;
+    right: 100px;
+    top: 1000px;
+}
+
+.video-leaf3-box {
+    width: 15%;
+    position: absolute;
+    left: 110px;
+    top: 2000px;
+}
+
+.video-leaf4-box {
+    width: 17%;
+    position: absolute;
+    top: 1900px;
+    right: 100px;
+}
+
+.video-leaf1,
+.video-leaf2,
+.video-leaf3,
+.video-leaf4 {
+    width: 100%;
+}
+
+.video-leaf1 {
+    transform: rotate(70deg);
+}
+
+.video-leaf3 {
+    transform: rotate(-30deg);
+}
+
+.video-leaf4 {
+    transform: rotate(90deg);
+}

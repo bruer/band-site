@@ -1,0 +1,41 @@
+---
+layout: default
+title: Store
+---
+
+<div class="store-container">
+    <h1 class="header-padding">Store</h1>
+    <div class="slider">
+        <div class="slide-viewer">
+            <div class="slide-group">
+                <div class="slide slide-1">
+                    <img class="slide-image slide-image-1"
+                        src="http://www.bobmarley.com/wp-content/uploads/2019/04/legend35-websitehomeslider4.jpg"
+                        alt="store image 1">
+                </div>
+                <div class="slide slide-2">
+                    <img class="slide-image slide-image-2"
+                        src="http://www.bobmarley.com/wp-content/uploads/2019/04/HouseofMarley_TA-1-1600x1080.jpg"
+                        alt="store image 2">
+                </div>
+                <div class="slide slide-3">
+                    <img class="slide-image slide-image-3"
+                        src="http://www.bobmarley.com/wp-content/uploads/2019/02/album-collage-website.jpg"
+                        alt="store image 3">
+                </div>
+            </div>
+        </div>
+        <div class="slide-buttons"></div>
+    </div>
+    <div class="store-slideshow">
+
+    </div>
+    <div class="music-container-discography">
+        {% for item in site.data.store %}
+        <div class="store-item box">
+            <img src="{{item.url}}" class="music-discography-images" alt="">
+            <p>{{item.name}} - {{item.pris}}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
